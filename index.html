@@ -1,41 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ingles Paraná</title>
-    <link rel="stylesheet"
-href="style.css">
+    <title> Marcos C. Schuster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 45%; /* Faz os quadrados ocuparem metade do espaço */
+            padding: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #0077cc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-  <nav>
-    <UL>
-       <li><a href="#">Home<a/</li>
-        <li><a href="#">Study</a></li>
-        <li><a href="#">Help</a></li>
-          <ul>]
-          </nav>
-         <header>
-             
-        <main>
-         <section class="overview">
-          <h1>inglês Paraná</h1>
-          <div class="unit-flow">
-           <div class="unit">
-             <img src="book-icon.png" alt="Lesson icon">
-             <p>Trying on clothes in astore</p>
-             </div>
-             <div class="unit">
-                <img src="flag-icon.png alt=Final Goal icon">
-                <p>Final Task</p>
-                </div>
-               </div>
-               </section>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Colégio Marcos C. Schuster</h1>
+        <h2>Aluno: João Silva</h2>
+    </header>
 
-               <selection class="lesson-detailis">
-                 <h2>Lesson 1- Trying on Clothes in a Store</h2>
-                 <ul>
-                 <li> Vocabulary: Clothes <a href="#">Start</a></li>
-                 <li>Grammar:Demostrative Adjectives<a href</li>
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Notas -->
+        <section>
+            <h2>Notas</h2>
+            <table>
+                <tr>
+                    <th>Matéria</th>
+                    <th>Nota</th>
+                </tr>
+                <tr>
+                    <td>Matemática</td>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>História</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>Ciências</td>
+                    <td>7.5</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Faltas -->
+        <section>
+            <h2>Faltas</h2>
+            <table>
+                <tr>
+                    <th>Matéria</th>
+                    <th>Faltas</th>
+                </tr>
+                <tr>
+                    <td>Matemática</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>História</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Ciências</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Aulas de Hoje -->
+        <section>
+            <h2>Aulas de Hoje</h2>
+            <ul>
+                <li>08:00 - Matemática</li>
+                <li>09:30 - História</li>
+                <li>11:00 - Ciências</li>
+                <li>13:30 - Educação Física</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>O Colégio Estadual Marcos Claudio Schuster comprometida com a excelência na educação, formando alunos para um futuro brilhante. Para mais informações, entre em contato conosco.</p>
+    </footer>
+</body>
+</html>
